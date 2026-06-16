@@ -63,7 +63,7 @@ friend-sync:
 # Notification settings (e.g., Slack/Discord webhook)
 notifications:
   # Should we send a message to a slack webhook when the session is updated
-  enabled: true
+  enabled: false
 
   # The webhook url to send the message to
   # If you are using discord add "/slack" to the end of the webhook url
