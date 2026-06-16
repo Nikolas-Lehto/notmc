@@ -1,3 +1,10 @@
-viaproxy/*/
-viaproxy/saves.json
+# global/internal
+*.log*
 icon.png
+
+# viaproxy
+viaproxy/saves.json
+viaproxy/viabedrock/blob_cache/
+
+# MinecraftXboxBroadcast
+mcxbox/cache/

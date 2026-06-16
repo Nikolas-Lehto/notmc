@@ -32,20 +32,9 @@ services:
       - 25565:25565
     depends_on:
       - minecraft
-  phantom:
-    container_name: phantom
-    build:
-      context: .
-      dockerfile: phantom.containerfile
-      args:
-        - PHANTOM_VERSION=v0.5.4
-    ports:
-      - 19133:19133
-      - 19132:19232
-    environment:
-      PHANTOM_UPSTREAM_ADDRESS: viaproxy:25565
-      PHANTOM_PORT: 19133
-    depends_on:
-     - viaproxy
+  mcxbox:
+    image: ghcr.io/mcxboxbroadcast/standalone:latest
+    volumes:
+        - ./mcxbox:/opt/app/config
 volumes:
   mc-data:

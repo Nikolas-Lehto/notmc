@@ -11,7 +11,7 @@ This stack consists of
 
 * [itzg/minecraft-server](https://hub.docker.com/r/itzg/minecraft-server) - itzg's containerized Minecraft server
 * [ghcr.io/viaversion/viaproxy](https://github.com/viaversion/ViaProxy) - ViaProxy, a standalone proxy that translates server packets to future versions and bedrock
-* [phantom](https://github.com/jhead/phantom) - A cool project that makes bedrock servers (or ViaProxy, in this case) accessible over lan.
+* [ghcr.io/mcxboxbroadcast/standalone](https://github.com/MCXboxBroadcast/Broadcaster) - A cool project that makes bedrock servers (or ViaProxy, in this case) accessible over the xbox friending system.
 
 If you want to set up something like this based on my work, I'd strongly suggest you create your own configuration, though you are of course welcome to use my files and scripts as a starting point.
 
